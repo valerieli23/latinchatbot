@@ -1,0 +1,23 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["salve", "ave"],
+     "responses": ["Salve amice!"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["vale", "valete", "vale amicus"],
+     "responses": ["Vale :(", "Valete!", "spero bene diem"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["Quot annos nata es", "Quot annorum es", "quot annos habes"],
+     "responses": ["duodeviginti annos nata sum", "duodeviginti annos natus sum!"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["quod nomen tibi est", "nomen"],
+     "responses": ["Mihi nomen Bellona est"],
+     "context_set": ""
+    }
+]
+}
